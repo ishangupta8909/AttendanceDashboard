@@ -1,0 +1,21 @@
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+.form-area {
+    max-width: 75rem;
+    max-height: 50rem;
+    margin: auto;
+    padding: 2rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-color: white;
+    box-shadow: 1px 2px 9px grey;
+  }
